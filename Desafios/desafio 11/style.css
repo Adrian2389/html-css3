@@ -2,6 +2,11 @@
     margin: 0px;
     padding: 0%;
 }
+body {
+   
+    width: 100%;
+    justify-content: space-around;
+}
 
 header {
     background-color: black;
@@ -33,14 +38,18 @@ section.normal {
     margin-bottom: 250px;
     font-weight: bold;
     line-height: 1.8em;
+    margin: 50px 0px 50px 0px;
 
 }
+section.normal > p {
 
+    
+}
 
 
 section.imagem {
    
-    
+    min-height: 320px;
     padding: 200px;
     background-image: url(imagens/background001.jpg);
     background-color: black;
@@ -50,18 +59,22 @@ section.imagem {
     background-position: center right;
     background-attachment: fixed;
 
+
 }
 
-section.imagem>p {
-
-
-    padding: 20px;
+section.imagem > p {
+    
+    min-width: 320px;
+    display: flex;
+    padding: 15px;
     position: relative;
-    right: 42%;
+    right: 50%;
     background-color: rgba(0, 0, 0, 0.322);
     font-family: 'Courier New', Courier, monospace, sans-serif;
     font-size: 20px;
     line-height: 2em;
+    justify-content: space-around;
+   
 
 
 
