@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+header {
+    background-color: black;
+    padding: 70px;
+    min-width: 120px;
+
+
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+
+}
+
+header p {
+    text-align: center;
+}
+
+header a {
+    color: white;
+
+}
+
+section.normal {
+    
+    font-size: 30px;
+    padding: 40px;
+    margin-bottom: 250px;
+    font-weight: bold;
+    line-height: 1.8em;
+
+}
+
+
+
+section.imagem {
+   
+    
+    padding: 200px;
+    background-image: url(imagens/background001.jpg);
+    background-color: black;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    background-attachment: fixed;
+
+}
+
+section.imagem>p {
+
+
+    padding: 20px;
+    position: relative;
+    right: 42%;
+    background-color: rgba(0, 0, 0, 0.322);
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    font-size: 20px;
+    line-height: 2em;
+
+
+
+}
