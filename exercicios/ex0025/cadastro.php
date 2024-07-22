@@ -1,0 +1,1 @@
+Os dados foram enviador, aprendar php para sabero qe fazer com ele 
