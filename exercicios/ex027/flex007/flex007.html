@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Flexible box
+    </title>
+    <style>
+        div.conteiner {
+          background-color: lightsalmon;
+          display: flex;
+          text-align: center;
+          flex-flow: row wrap;
+        }
+        div.item {
+            background-color: lightblue;
+            border: 1px solid black;
+            padding: 20px;
+
+
+            
+        } 
+        div#ord1 {
+            order: 0;
+        }
+        div#ord2 {
+            order: -2;
+        }
+        div#ord3 {
+            order: 4;
+        }
+        div#ord4 {
+            order: -1;
+        }
+        div#ord5 {
+            order: 5;
+        }
+        div#ord6 {
+            order: 8;
+        }
+        div#ord7 {
+            order: -5;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item" id="ord1" > A</div>
+        <div class="item" id="ord2" > B</div>
+        <div class="item" id="ord3" > C</div>
+        <div class="item" id="ord4"  > D</div>
+        <div class="item" id="ord5" > E</div>
+        <div class="item" id="ord6"  > F</div>
+        <div class="item" id="ord7" > g</div>
+
+
+    </div>
+    
+</body>
+</html>
